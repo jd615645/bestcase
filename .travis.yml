@@ -13,10 +13,7 @@ install:
 
 #要執行的程式
 script:
-  - gulp clean
-  - gulp build
-  - gulp assetsmin
-  - gulp images
+  - gulp prod
   - cp CNAME dist
 
 deploy:
