@@ -1,0 +1,45 @@
+name: bestcase
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    env:
+      MY_SECRET   : ${{secrets.DEPLOY_GHPAGE_TOKEN}}
+      USER_NAME   : jd615645
+      USER_EMAIL  : jd615645@gmail.com
+      PUBLISH_DIR : ./dist
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Setup Node.js
+        uses: actions/setup-node@v2-beta
+        with:
+          node-version: '16'
+          check-latest: true
+      - name: Install NPM dependencies
+        run: npm install
+      - name: Install Gulp CLI
+        run: npm install -g gulp-cli
+      - name: Build gulp
+        run: gulp prod
+      - name: Setting CNAME
+        run: cp CNAME dist
+      - name: Depoloy to gh page
+        run: |
+          cd $PUBLISH_DIR
+          git init
+          git config --local user.name $USER_NAME
+          git config --local user.email $USER_EMAIL
+          git status
+          git remote add origin https://$MY_SECRET@github.com/$GITHUB_REPOSITORY.git
+          git checkout -b gh-pages
+          git add --all
+          git commit -m "Deploy to Github pages"
+          git push origin gh-pages -f
+          echo 🐈 deploy gh-pages complete.
