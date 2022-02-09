@@ -101,6 +101,26 @@ p {
     background: #3d383f;
   }
 }
+#color8828 label {
+  &[for='color-1'] {
+    background: #ff8e7d;
+  }
+  &[for='color-2'] {
+    background: #c8dd75;
+  }
+  &[for='color-3'] {
+    background: #e4a0b4;
+  }
+  &[for='color-4'] {
+    background: #c7c0bb;
+  }
+  &[for='color-5'] {
+    background: #3d383f;
+  }
+  &[for='color-6'] {
+    background: #554d7e;
+  }
+}
 
 .case-product {
   @include size(100%, 455px);

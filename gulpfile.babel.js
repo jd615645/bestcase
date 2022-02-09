@@ -15,7 +15,7 @@ const paths = {
     js: './src/js/*.js',
     lib: './src/js/lib/*.js',
     pug: './src/pug/*.pug',
-    images: './src/img/*',
+    images: './src/img/**/*',
     assets: './src/assets/**/*'
   },
   dist: {
@@ -83,7 +83,7 @@ export function assetsmin() {
     .pipe(gulp.dest('./dist/assets/css'));
   gulp.src('./src/assets/js/**')
     .pipe(gulp.dest('./dist/assets/js'));
-  gulp.src('./src/assets/img/**')
+  gulp.src('./src/assets/img/**/*')
     // .pipe($.imagemin())
     .pipe(gulp.dest('./dist/assets/img'));
 
