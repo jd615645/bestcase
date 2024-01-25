@@ -141,6 +141,64 @@ p {
     background: #c7c0bb;
   }
 }
+#color9938 label {
+  &[for='color-1'] {
+    background: #bb0100;
+  }
+  &[for='color-2'] {
+    background: #0090c5;
+  }
+  &[for='color-3'] {
+    background: #202020;
+  }
+  &[for='color-4'] {
+    background: #1e2f76;
+  }
+  &[for='color-5'] {
+    background: #c7c0bb;
+  }
+  &[for='color-6'] {
+    background: #e4a0b4;
+  }
+}
+#color9939 label {
+  &[for='color-1'] {
+    background: #e4a0b4;
+  }
+  &[for='color-2'] {
+    background: #202020;
+  }
+  &[for='color-3'] {
+    background: #c7c0bb;
+  }
+  &[for='color-4'] {
+    background: #3c5c99;
+  }
+  &[for='color-5'] {
+    background: #e48a20;
+  }
+}
+#colorn9938 label {
+  &[for='color-1'] {
+    background: #bb0100;
+  }
+  &[for='color-2'] {
+    background: #202020;
+  }
+  &[for='color-3'] {
+    background: #1e2f76;
+  }
+  &[for='color-4'] {
+    background: #c7c0bb;
+  }
+  &[for='color-5'] {
+    background: #e4a0b4;
+  }
+  &[for='color-6'] {
+    background: #0090c5;
+  }
+}
+
 
 .case-product {
   @include size(100%, 455px);
@@ -160,104 +218,77 @@ p {
     @include size(250px, 445px);
     transition: all 0.5s;
 
-    // 9909
-    &[name='9909'][value='1'] {
-      background: url(../img/9909/9909_1.png) center center no-repeat;
+    // 9938
+    &[name='9938'][value='1'] {
+      background: url(../img/9938/9938_1.png) center center no-repeat;
       background-size: 250px;
     }
-    &[name='9909'][value='2'] {
-      background: url(../img/9909/9909_2.png) center center no-repeat;
+    &[name='9938'][value='2'] {
+      background: url(../img/9938/9938_2.png) center center no-repeat;
       background-size: 250px;
     }
-    &[name='9909'][value='3'] {
-      background: url(../img/9909/9909_3.png) center center no-repeat;
+    &[name='9938'][value='3'] {
+      background: url(../img/9938/9938_3.png) center center no-repeat;
       background-size: 250px;
     }
-    &[name='9909'][value='4'] {
-      background: url(../img/9909/9909_4.png) center center no-repeat;
+    &[name='9938'][value='4'] {
+      background: url(../img/9938/9938_4.png) center center no-repeat;
       background-size: 250px;
     }
-    &[name='9909'][value='5'] {
-      background: url(../img/9909/9909_5.png) center center no-repeat;
+    &[name='9938'][value='5'] {
+      background: url(../img/9938/9938_5.png) center center no-repeat;
       background-size: 250px;
     }
-    // 8816
-    &[name='8816'][value='1'] {
-      background: url(../img/8816/8816_1.png) center center no-repeat;
+    &[name='9938'][value='6'] {
+      background: url(../img/9938/9938_6.png) center center no-repeat;
       background-size: 250px;
     }
-    &[name='8816'][value='2'] {
-      background: url(../img/8816/8816_2.png) center center no-repeat;
+
+    // 9939
+    &[name='9939'][value='1'] {
+      background: url(../img/9939/9939_1.png) center center no-repeat;
       background-size: 250px;
     }
-    &[name='8816'][value='3'] {
-      background: url(../img/8816/8816_3.png) center center no-repeat;
+    &[name='9939'][value='2'] {
+      background: url(../img/9939/9939_2.png) center center no-repeat;
       background-size: 250px;
     }
-    &[name='8816'][value='4'] {
-      background: url(../img/8816/8816_4.png) center center no-repeat;
+    &[name='9939'][value='3'] {
+      background: url(../img/9939/9939_3.png) center center no-repeat;
       background-size: 250px;
     }
-    &[name='8816'][value='5'] {
-      background: url(../img/8816/8816_5.png) center center no-repeat;
+    &[name='9939'][value='4'] {
+      background: url(../img/9939/9939_4.png) center center no-repeat;
       background-size: 250px;
     }
-    &[name='8816'][value='6'] {
-      background: url(../img/8816/8816_6.png) center center no-repeat;
+    &[name='9939'][value='5'] {
+      background: url(../img/9939/9939_5.png) center center no-repeat;
       background-size: 250px;
     }
-    &[name='8816'][value='7'] {
-      background: url(../img/8816/8816_7.png) center center no-repeat;
+
+    // n9938
+    &[name='n9938'][value='1'] {
+      background: url(../img/n9938/n9938_1.png) center center no-repeat;
       background-size: 250px;
     }
-    // 8828
-    &[name='8828'][value='1'] {
-      background: url(../img/8828/8828_1.png) center center no-repeat;
+    &[name='n9938'][value='2'] {
+      background: url(../img/n9938/n9938_2.png) center center no-repeat;
       background-size: 250px;
     }
-    &[name='8828'][value='2'] {
-      background: url(../img/8828/8828_2.png) center center no-repeat;
+    &[name='n9938'][value='3'] {
+      background: url(../img/n9938/n9938_3.png) center center no-repeat;
       background-size: 250px;
     }
-    &[name='8828'][value='3'] {
-      background: url(../img/8828/8828_3.png) center center no-repeat;
+    &[name='n9938'][value='4'] {
+      background: url(../img/n9938/n9938_4.png) center center no-repeat;
       background-size: 250px;
     }
-    &[name='8828'][value='4'] {
-      background: url(../img/8828/8828_4.png) center center no-repeat;
+    &[name='n9938'][value='5'] {
+      background: url(../img/n9938/n9938_5.png) center center no-repeat;
       background-size: 250px;
     }
-    &[name='8828'][value='5'] {
-      background: url(../img/8828/8828_5.png) center center no-repeat;
-      background-size: 250px;
-    }
-    &[name='8828'][value='6'] {
-      background: url(../img/8828/8828_6.png) center center no-repeat;
-      background-size: 250px;
-    }
-    // 9928
-    &[name='9928'][value='1'] {
-      background: url(../img/9928/9928_1.png) center center no-repeat;
-      background-size: 250px;
-    }
-    &[name='9928'][value='2'] {
-      background: url(../img/9928/9928_2.png) center center no-repeat;
-      background-size: 250px;
-    }
-    &[name='9928'][value='3'] {
-      background: url(../img/9928/9928_3.png) center center no-repeat;
-      background-size: 250px;
-    }
-    &[name='9928'][value='4'] {
-      background: url(../img/9928/9928_4.png) center center no-repeat;
-      background-size: 250px;
-    }
-    &[name='9928'][value='5'] {
-      background: url(../img/9928/9928_5.png) center center no-repeat;
-      background-size: 250px;
-    }
-    &[name='9928'][value='6'] {
-      background: url(../img/9928/9928_6.png) center center no-repeat;
+    &[name='n9938'][value='6'] {
+      background: url(../img/n9938/n9938_6.png) center center no-repeat;
       background-size: 250px;
     }
   }
@@ -288,7 +319,8 @@ p {
     align-items: center;
     img {
       width: 100%;
-      max-width: 400px;
+      max-width: 250px;
+      padding: 16px;
       box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
     }
   }

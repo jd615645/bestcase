@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "prod": "gulp prod",
+    "build:image": "gulp images",
+    "dev": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "homepage": "https://bestcase.com.tw",

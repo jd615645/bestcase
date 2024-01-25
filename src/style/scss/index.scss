@@ -72,28 +72,22 @@
   }
 }
 
-.casen9909 {
+.home-case-image {
   @include size(200px, 352px);
   margin: 0px auto;
   transition: all 0.5s;
+}
+
+.case9909 {
   background: url(../img/9909/9909_side.png) center center no-repeat;
 }
-.casen9928 {
-  @include size(200px, 352px);
-  margin: 0px auto;
-  transition: all 0.5s;
+.case9928 {
   background: url(../img/9928/9928_side.png) center center no-repeat;
 }
-.casen8816 {
-  @include size(200px, 352px);
-  margin: 0px auto;
-  transition: all 0.5s;
+.case8816 {
   background: url(../img/8816/8816_side.png) center center no-repeat;
 }
-.casen8828 {
-  @include size(200px, 352px);
-  margin: 0px auto;
-  transition: all 0.5s;
+.case8828 {
   background: url(../img/8828/8828_side.png) center center no-repeat;
 }
 .bg-image-v1 {
