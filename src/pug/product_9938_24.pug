@@ -1,0 +1,115 @@
+extends layout
+block style
+  link(rel='stylesheet', href='assets/css/shop.style.css')
+  link(rel='stylesheet', href='./style/product.css')
+block content
+  // === Shop Product ===
+  .shop-product
+    // Breadcrumbs v5
+    .container
+      ul.breadcrumb-v5
+        li
+          a(href='product.html') 產品介紹
+        li.active 9938亮面戰車系列 24吋
+    // End Breadcrumbs v5
+    .container
+      .row
+        .col-md-6
+          .case-product
+            .image(name='9938_24', value='1')
+            .product-color-text.product-text 閃焰紅
+        .col-md-6
+          .shop-product-heading
+            h2 9938亮面戰車系列 24吋
+          br
+          h3.shop-product-title 顏色
+            span.product-color-text 閃焰紅
+          ul#color9938_24.list-inline.product-color.margin-bottom-30
+            li(title='閃焰紅')
+              input#color-1(type='radio', name='color', value='1', checked='')
+              label(for='color-1')
+            li(title='湖水藍')
+              input#color-2(type='radio', name='color', value='2')
+              label(for='color-2')
+            li(title='礦石鐵')
+              input#color-3(type='radio', name='color', value='3')
+              label(for='color-3')
+            li(title='深寶藍')
+              input#color-4(type='radio', name='color', value='4')
+              label(for='color-4')
+            li(title='耀沙金')
+              input#color-5(type='radio', name='color', value='5')
+              label(for='color-5')
+            li(title='俏彩粉')
+              input#color-6(type='radio', name='color', value='6')
+              label(for='color-6')
+          h3.shop-product-title 尺寸
+          ul.list-inline.product-size.margin-bottom-30
+            li(title='24吋')
+              label(for='size-2') 24吋
+  // === End Shop Product ===
+
+  .content-md.container
+    .tab-v6
+      ul.nav.nav-tabs(role='tablist')
+        li.active
+          a(href='#specifications', role='tab', data-toggle='tab') 產品介紹
+      .tab-content
+        #specifications.tab-pane.fade.in.active
+          h2 材質
+          p ABS塑鋼，PC(透明防彈玻璃材質)三層複合式箱殼材料獨一無二本體更耐撞，重擊後不易白化。
+
+          h2 尺寸
+          table.table.table-striped
+            thead
+              tr
+                th 吋數
+                th 長(cm)
+                th 寬(cm)
+                th 深(cm)
+                th 重量(kg)
+                th 適用天數
+                th 建議售價
+            tbody
+              tr
+                td 24 吋
+                td 59
+                td 42
+                td 29
+                td 4.9
+                td 3~5天適用
+                td NT 9,080
+          h2.margin-bottom-30 產品特色
+          .row.feature.margin-bottom-30
+            .col-md-6.feature-img
+              img(src='./img/9938/9938_info_1.png')
+            .col-md-6.feature-img
+              h3 箱殼
+              ul
+                li 三層複合式材料，表層採防彈玻璃材質，獨家印刷技術設計降低刮傷感，使本體更耐壓、耐撞不易白化。
+          .row.feature.margin-bottom-30
+            .col-md-6.feature-img
+              img(src='./img/9938/9938_info_2.png')
+            .col-md-6.feature-img
+              h3 TSA 國際海關鎖頭
+              ul
+                li TSA 鎖頭為美國海關簽約認可之行李箱鎖頭。
+                li 進出美國，行李箱可直接上鎖，避免海關安檢時破壞鎖頭造成旅遊不便。
+          .row.feature.margin-bottom-30
+            .col-md-6.feature-img
+              img(src='./img/9938/9938_info_3.png')
+            .col-md-6.feature-img
+              h3 低噪音超耐用飛機輪
+              ul
+                li 360 度旋轉自如，行進中接近無聲。
+          .row.feature.margin-bottom-30
+            .col-md-6.feature-img
+              img(src='./img/9938/9938_info_4.png')
+            .col-md-6.feature-img
+              h3 多段式拉桿
+              ul
+                li 壓著拉桿手把按鈕處，即可調整高度。
+
+block append js
+  script(src='./js/product.js')
+
