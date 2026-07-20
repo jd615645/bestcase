@@ -63,19 +63,16 @@ p {
 }
 #color9909 label {
   &[for='color-1'] {
-    background: #e4a0b4;
+    background: #c8a878;
   }
   &[for='color-2'] {
-    background: #b2cae2;
+    background: #a8c050;
   }
   &[for='color-3'] {
-    background: #f4ae7d;
+    background: #4888a0;
   }
   &[for='color-4'] {
-    background: #c0c4ce;
-  }
-  &[for='color-5'] {
-    background: #4b4c4e;
+    background: #8860a8;
   }
 }
 #color8816 label {
@@ -440,6 +437,24 @@ p {
     }
     &[name='9938_24'][value='6'] {
       background: url(../img/9938_24/9938_6.png) center center no-repeat;
+      background-size: 250px;
+    }
+
+    // 9909
+    &[name='9909'][value='1'] {
+      background: url(../img/9909/9909-01milktea.png) center center no-repeat;
+      background-size: 250px;
+    }
+    &[name='9909'][value='2'] {
+      background: url(../img/9909/9909-03green.png) center center no-repeat;
+      background-size: 250px;
+    }
+    &[name='9909'][value='3'] {
+      background: url(../img/9909/9909-04blue.png) center center no-repeat;
+      background-size: 250px;
+    }
+    &[name='9909'][value='4'] {
+      background: url(../img/9909/9909-01purple-2.png) center center no-repeat;
       background-size: 250px;
     }
 
