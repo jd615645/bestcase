@@ -103,19 +103,22 @@ p {
     background: #c4695c;
   }
   &[for='color-2'] {
-    background: #c8dd75;
-  }
-  &[for='color-3'] {
     background: #e4a0b4;
   }
+  &[for='color-3'] {
+    background: #c070a0;
+  }
   &[for='color-4'] {
-    background: #c7c0bb;
+    background: #7a5040;
   }
   &[for='color-5'] {
-    background: #3d383f;
+    background: #70b840;
   }
   &[for='color-6'] {
-    background: #554d7e;
+    background: #202020;
+  }
+  &[for='color-7'] {
+    background: #c0c0b8;
   }
 }
 #color9928 label {
@@ -437,6 +440,36 @@ p {
     }
     &[name='9938_24'][value='6'] {
       background: url(../img/9938_24/9938_6.png) center center no-repeat;
+      background-size: 250px;
+    }
+
+    // 8828
+    &[name='8828'][value='1'] {
+      background: url(../img/8828/8828-red.png) center center no-repeat;
+      background-size: 250px;
+    }
+    &[name='8828'][value='2'] {
+      background: url(../img/8828/8828-pink.png) center center no-repeat;
+      background-size: 250px;
+    }
+    &[name='8828'][value='3'] {
+      background: url(../img/8828/8828-purple.png) center center no-repeat;
+      background-size: 250px;
+    }
+    &[name='8828'][value='4'] {
+      background: url(../img/8828/8828-brown.png) center center no-repeat;
+      background-size: 250px;
+    }
+    &[name='8828'][value='5'] {
+      background: url(../img/8828/8828-green.png) center center no-repeat;
+      background-size: 250px;
+    }
+    &[name='8828'][value='6'] {
+      background: url(../img/8828/8828-black.png) center center no-repeat;
+      background-size: 250px;
+    }
+    &[name='8828'][value='7'] {
+      background: url(../img/8828/8828-silver08.png) center center no-repeat;
       background-size: 250px;
     }
 
