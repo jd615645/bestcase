@@ -123,22 +123,19 @@ p {
 }
 #color9928 label {
   &[for='color-1'] {
-    background: #c8dd75;
+    background: #f0ede8;
   }
   &[for='color-2'] {
-    background: #3d383f;
+    background: #8a8a8a;
   }
   &[for='color-3'] {
-    background: #c4695c;
+    background: #e87060;
   }
   &[for='color-4'] {
-    background: #554d7e;
+    background: #5a8a40;
   }
   &[for='color-5'] {
-    background: #e4a0b4;
-  }
-  &[for='color-6'] {
-    background: #c7c0bb;
+    background: #5090c0;
   }
 }
 #color9938 label {
@@ -420,6 +417,28 @@ p {
     }
     &[name='9938_24'][value='6'] {
       background: url(../img/9938_24/9938_6.png) center center no-repeat;
+      background-size: 250px;
+    }
+
+    // 9928
+    &[name='9928'][value='1'] {
+      background: url(../img/9928/9928-01white.png) center center no-repeat;
+      background-size: 250px;
+    }
+    &[name='9928'][value='2'] {
+      background: url(../img/9928/9928-02gray.png) center center no-repeat;
+      background-size: 250px;
+    }
+    &[name='9928'][value='3'] {
+      background: url(../img/9928/9928-03orange.png) center center no-repeat;
+      background-size: 250px;
+    }
+    &[name='9928'][value='4'] {
+      background: url(../img/9928/9928-04green.png) center center no-repeat;
+      background-size: 250px;
+    }
+    &[name='9928'][value='5'] {
+      background: url(../img/9928/9928-05blue_2.png) center center no-repeat;
       background-size: 250px;
     }
 
