@@ -257,6 +257,52 @@ p {
     background: #e48a20;
   }
 }
+#color2510mist label {
+  &[for='color-1'] {
+    background: #e8bba0;
+  }
+  &[for='color-2'] {
+    background: #c8a870;
+  }
+  &[for='color-3'] {
+    background: #8b6b5a;
+  }
+  &[for='color-4'] {
+    background: #a08868;
+  }
+  &[for='color-5'] {
+    background: #6b6b70;
+  }
+  &[for='color-6'] {
+    background: #6898b8;
+  }
+  &[for='color-7'] {
+    background: #3868c8;
+  }
+}
+#color2510 label {
+  &[for='color-1'] {
+    background: #e8ddc8;
+  }
+  &[for='color-2'] {
+    background: #c97aab;
+  }
+  &[for='color-3'] {
+    background: #e87a30;
+  }
+  &[for='color-4'] {
+    background: #f0c020;
+  }
+  &[for='color-5'] {
+    background: #4f6b58;
+  }
+  &[for='color-6'] {
+    background: #1e78c8;
+  }
+  &[for='color-7'] {
+    background: #a8aaae;
+  }
+}
 
 .case-product {
   @include size(100%, 455px);
@@ -374,6 +420,66 @@ p {
     }
     &[name='9938_24'][value='6'] {
       background: url(../img/9938_24/9938_6.png) center center no-repeat;
+      background-size: 250px;
+    }
+
+    // 2510 霧面
+    &[name='2510mist'][value='1'] {
+      background: url(../img/2510_霧面/2510-07brown.png) center center no-repeat;
+      background-size: 250px;
+    }
+    &[name='2510mist'][value='2'] {
+      background: url(../img/2510_霧面/2510-02golden.png) center center no-repeat;
+      background-size: 250px;
+    }
+    &[name='2510mist'][value='3'] {
+      background: url(../img/2510_霧面/2510-01coco.png) center center no-repeat;
+      background-size: 250px;
+    }
+    &[name='2510mist'][value='4'] {
+      background: url(../img/2510_霧面/2510-04pink.png) center center no-repeat;
+      background-size: 250px;
+    }
+    &[name='2510mist'][value='5'] {
+      background: url(../img/2510_霧面/2510-05gray.png) center center no-repeat;
+      background-size: 250px;
+    }
+    &[name='2510mist'][value='6'] {
+      background: url(../img/2510_霧面/2510-06blue.png) center center no-repeat;
+      background-size: 250px;
+    }
+    &[name='2510mist'][value='7'] {
+      background: url(../img/2510_霧面/2510-03blue.png) center center no-repeat;
+      background-size: 250px;
+    }
+
+    // 2510
+    &[name='2510'][value='1'] {
+      background: url(../img/2510/2510-05white.png) center center no-repeat;
+      background-size: 250px;
+    }
+    &[name='2510'][value='2'] {
+      background: url(../img/2510/2510-07pink.png) center center no-repeat;
+      background-size: 250px;
+    }
+    &[name='2510'][value='3'] {
+      background: url(../img/2510/2510-02orange.png) center center no-repeat;
+      background-size: 250px;
+    }
+    &[name='2510'][value='4'] {
+      background: url(../img/2510/2510-01yellow.png) center center no-repeat;
+      background-size: 250px;
+    }
+    &[name='2510'][value='5'] {
+      background: url(../img/2510/2510-04green.png) center center no-repeat;
+      background-size: 250px;
+    }
+    &[name='2510'][value='6'] {
+      background: url(../img/2510/2510-06blue.png) center center no-repeat;
+      background-size: 250px;
+    }
+    &[name='2510'][value='7'] {
+      background: url(../img/2510/2510-03gray.png) center center no-repeat;
       background-size: 250px;
     }
 
