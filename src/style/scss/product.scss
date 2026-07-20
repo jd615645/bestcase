@@ -254,6 +254,29 @@ p {
     background: #e48a20;
   }
 }
+#color9938dual label {
+  &[for='color-1'] {
+    background: linear-gradient(to right, #2a6b5a 50%, #2a2a2a 50%);
+  }
+  &[for='color-2'] {
+    background: linear-gradient(to right, #bb0100 50%, #2a2a2a 50%);
+  }
+  &[for='color-3'] {
+    background: linear-gradient(to right, #c7c0bb 50%, #2a2a2a 50%);
+  }
+  &[for='color-4'] {
+    background: linear-gradient(to right, #c8dd75 50%, #2a2a2a 50%);
+  }
+  &[for='color-5'] {
+    background: linear-gradient(to right, #0090c5 50%, #2a2a2a 50%);
+  }
+  &[for='color-6'] {
+    background: linear-gradient(to right, #e4a0b4 50%, #2a2a2a 50%);
+  }
+  &[for='color-7'] {
+    background: linear-gradient(to right, #1e2f76 50%, #2a2a2a 50%);
+  }
+}
 #color2510mist label {
   &[for='color-1'] {
     background: #e8bba0;
@@ -417,6 +440,36 @@ p {
     }
     &[name='9938_24'][value='6'] {
       background: url(../img/9938_24/9938_6.png) center center no-repeat;
+      background-size: 250px;
+    }
+
+    // 9938 dual
+    &[name='9938dual'][value='1'] {
+      background: url(../img/9938雙色/9938L-c1.png) center center no-repeat;
+      background-size: 250px;
+    }
+    &[name='9938dual'][value='2'] {
+      background: url(../img/9938雙色/9938L-c2.png) center center no-repeat;
+      background-size: 250px;
+    }
+    &[name='9938dual'][value='3'] {
+      background: url(../img/9938雙色/9938L-c3.png) center center no-repeat;
+      background-size: 250px;
+    }
+    &[name='9938dual'][value='4'] {
+      background: url(../img/9938雙色/9938L-c4.png) center center no-repeat;
+      background-size: 250px;
+    }
+    &[name='9938dual'][value='5'] {
+      background: url(../img/9938雙色/9938L-c5.png) center center no-repeat;
+      background-size: 250px;
+    }
+    &[name='9938dual'][value='6'] {
+      background: url(../img/9938雙色/9938L-pink.png) center center no-repeat;
+      background-size: 250px;
+    }
+    &[name='9938dual'][value='7'] {
+      background: url(../img/9938雙色/9938L-blue.png) center center no-repeat;
       background-size: 250px;
     }
 
